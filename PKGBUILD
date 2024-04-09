@@ -1,7 +1,7 @@
 # Maintainer: Luke Arms <luke@arms.to>
 
 pkgname=pretty-php
-pkgver=0.4.59
+pkgver=0.4.60
 pkgrel=1
 pkgdesc="The opinionated PHP code formatter"
 arch=('any')
@@ -10,7 +10,7 @@ url="https://github.com/lkrms/pretty-php"
 depends=('php')
 makedepends=('php-sodium' 'git' 'composer' 'pandoc')
 source=("${pkgname}::git+https://github.com/lkrms/pretty-php.git#tag=v${pkgver}")
-sha256sums=('7171d3a8b54cd519ceabfd7ba97b38b7778bf5a3a0dc894809b009e361c17e71')
+sha256sums=('f3ef4c725fa9c38b662d0e52c79aba6c089c1872a47b6d725e320362df47cc58')
 
 prepare() {
     cd "${srcdir}/${pkgname}"
