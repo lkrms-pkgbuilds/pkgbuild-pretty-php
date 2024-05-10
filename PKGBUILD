@@ -10,7 +10,7 @@ url="https://github.com/lkrms/pretty-php"
 depends=('php')
 makedepends=('php-sodium' 'git' 'composer' 'pandoc')
 source=("${pkgname}::git+https://github.com/lkrms/pretty-php.git#tag=v${pkgver}")
-sha256sums=('4ff9ce287a3e49424e6d2c838779141ad90cfcb8a457742fba30787ae921d1f3')
+sha256sums=('239a75210a33614dc90708b0142ede5d26e143cd5b83ba0aba2b77a0bb146f4b')
 
 prepare() {
     cd "${srcdir}/${pkgname}"

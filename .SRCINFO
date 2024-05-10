@@ -11,6 +11,6 @@ pkgbase = pretty-php
 	makedepends = pandoc
 	depends = php
 	source = pretty-php::git+https://github.com/lkrms/pretty-php.git#tag=v0.4.63
-	sha256sums = 4ff9ce287a3e49424e6d2c838779141ad90cfcb8a457742fba30787ae921d1f3
+	sha256sums = 239a75210a33614dc90708b0142ede5d26e143cd5b83ba0aba2b77a0bb146f4b
 
 pkgname = pretty-php
