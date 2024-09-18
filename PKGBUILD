@@ -1,7 +1,7 @@
 # Maintainer: Luke Arms <luke@arms.to>
 
 pkgname=pretty-php
-pkgver=0.4.71
+pkgver=0.4.72
 pkgrel=1
 pkgdesc="The opinionated PHP code formatter"
 arch=('any')
@@ -28,7 +28,7 @@ check() {
     local phar
     phar=$(_phar)
     echo "Checking output of \`$phar --version\`"
-    "$phar" --version | grep -F "${pkgname} v${pkgver}-"
+    "$phar" --version | grep -F "${pkgname} v${pkgver} ("
 }
 
 package() {
